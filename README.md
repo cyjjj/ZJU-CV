@@ -2,7 +2,7 @@
 ZJU CV Homework
 
 ---
-## HW1:制作个人视频
+### HW1: 制作个人视频
 对输入的一个彩色视频与五张以上照片，用OpenCV实现以下功能或要求：
 1. 命令行格式: “xxx.exe 放视频与照片的文件夹路径” ,（例如 MyMakeVideo.exe C:\input ）【假设该文件夹下面只有一个avi视频文件与若干jpg文件】；
 2. 将输入的视频与照片处理成同样长宽后，合在一起生成一个视频；
@@ -12,11 +12,11 @@ ZJU CV Homework
 6. 视频文件无需上载 ，但在实验报告里必须贴图展示输入输出效果
 
 ---
-## HW2:椭圆拟合
+### HW2: 椭圆拟合
 调用CvBox2D cvFitEllipse2( const Cvarr* points )实现椭圆拟合
 
 ---
-## HW3:Eigenface人脸识别
+### HW3: Eigenface人脸识别
 自己写代码实现 Eigenface 人脸识别的训练与识别过程：
 1. 假设每张人脸图像只有一张人脸，且两只眼睛位置已知（即可人工标注给出）。每张图像的眼睛位置存在相应目录下的一个与图像文件名相同但后缀名为 txt 的文本文件里，文本文件中用一行、以空格分隔的4个数字表示，分别对应于两只眼睛中心在图像中的位置；
 2. 实现两个程序过程（两个执行文件），分别对应训练与识别；
@@ -26,7 +26,7 @@ ZJU CV Homework
 6. 识别程序格式大致为：“mytest.exe <人脸图像文件名> <model文件名> <其他参数>…”，将 model 文件装载进来后，对输入的人脸图像进行识别，并将识别结果叠加在输入的人脸图像上显示出来，同时显示人脸库中跟该人脸图像最相似的图像。
 
 ---
-## HW4:相机定标与鸟瞰图变换
+### HW4: 相机定标与鸟瞰图变换
 1. 参考Learning OpenCV示例18-1，利用棋盘格图像进行相机定标，将参数写入xml文件保存。棋盘格图像见群文件Learning OpenCV/LearningOpenCV_Code/LearningOpenCV_Code/calibration
 2. 参考示例19-1，根据求得的内参实现鸟瞰图（俯视）转换，测试图片见群文件Learning OpenCV/LearningOpenCV_Code/LearningOpenCV_Code/birdseye
 
@@ -34,7 +34,7 @@ ZJU CV Homework
 Learning-OpenCV-3 Example: https://github.com/oreillymedia/Learning-OpenCV-3_examples
 
 ---
-## HW-honor:学习CN
+### HW-honor: 学习CNN
 利用CNN进行手写数字识别
 
 框架：Tensorflow https:/github.com/tensorflow/tensorflow （已包含下面网络结构与数据集）
