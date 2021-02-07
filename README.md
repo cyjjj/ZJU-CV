@@ -10,8 +10,10 @@ ZJU CV Homework
 5. 有能力的同学，可以编程实现镜头切换效果；（已实现）
 6. 视频文件无需上载 ，但在实验报告里必须贴图展示输入输出效果
 
+
 ## HW2:椭圆拟合
 调用CvBox2D cvFitEllipse2( const Cvarr* points )实现椭圆拟合
+
 
 ## HW3:Eigenface人脸识别
 自己写代码实现 Eigenface 人脸识别的训练与识别过程：
@@ -22,8 +24,27 @@ ZJU CV Homework
 5. 训练程序格式大致为：“mytrain.exe <能量百分比> <model文件名> <其他参数>…”，用能量百分比决定取多少个特征脸，将训练结果输出保存到 model 文件中。同时将前 10 个特征脸拼成一张图像，然后显示出来；
 6. 识别程序格式大致为：“mytest.exe <人脸图像文件名> <model文件名> <其他参数>…”，将 model 文件装载进来后，对输入的人脸图像进行识别，并将识别结果叠加在输入的人脸图像上显示出来，同时显示人脸库中跟该人脸图像最相似的图像。
 
+
 ## HW4:相机定标与鸟瞰图变换
 1. 参考Learning OpenCV示例18-1，利用棋盘格图像进行相机定标，将参数写入xml文件保存。棋盘格图像见群文件Learning OpenCV/LearningOpenCV_Code/LearningOpenCV_Code/calibration
 2. 参考示例19-1，根据求得的内参实现鸟瞰图（俯视）转换，测试图片见群文件Learning OpenCV/LearningOpenCV_Code/LearningOpenCV_Code/birdseye
+
 参考资料:
 Learning-OpenCV-3 Example: https://github.com/oreillymedia/Learning-OpenCV-3_examples
+
+
+## HW-honor:学习CN
+利用CNN进行手写数字识别
+
+框架：Tensorflow https:/github.com/tensorflow/tensorflow （已包含下面网络结构与数据集）
+
+数据集：The Mnist Database of handwrite digits http://yann.lecun.com/exdb/mnist/
+
+网络结构：LeNet-5 http://yann.lecun.com/exdb/lenet
+
+利用上述数据集、网络结构以及选定的Tensorflow框架实现手写数字的识别
+
+参考链接：
+1. https://www.tensorflow.org/versions/r0.12/tutorials/mnist/pros/index.html
+2. http://wiki.jikexueyuan.com/project/tensorflow-zh/tutorials/mnis_beginners.html
+3. http://blog.csdn.net/kkk584520/article/details/51477537
