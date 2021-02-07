@@ -25,6 +25,8 @@ ZJU CV Homework
 5. 训练程序格式大致为：“mytrain.exe <能量百分比> <model文件名> <其他参数>…”，用能量百分比决定取多少个特征脸，将训练结果输出保存到 model 文件中。同时将前 10 个特征脸拼成一张图像，然后显示出来；
 6. 识别程序格式大致为：“mytest.exe <人脸图像文件名> <model文件名> <其他参数>…”，将 model 文件装载进来后，对输入的人脸图像进行识别，并将识别结果叠加在输入的人脸图像上显示出来，同时显示人脸库中跟该人脸图像最相似的图像。
 
+选择使用数据库：BioFaceDatabase
+
 ---
 ### HW4: 相机定标与鸟瞰图变换
 1. 参考Learning OpenCV示例18-1，利用棋盘格图像进行相机定标，将参数写入xml文件保存。棋盘格图像见群文件Learning OpenCV/LearningOpenCV_Code/LearningOpenCV_Code/calibration
